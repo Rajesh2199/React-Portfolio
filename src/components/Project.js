@@ -4,7 +4,7 @@ import React from "react";
 function Projects (){
   return (
 
-<div className="col s12 m7 card-panel hoverable">
+<div className="col s12 m8 offset-m2 l6 offset-l3 card-panel hoverable">
     <h2 className="header">The Covid-19 Project</h2>
        <div className="card horizontal">
                <div className="card-image">

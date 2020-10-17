@@ -7,7 +7,7 @@ function Burger() {
              <h2 className="header">Eat The Burger</h2>
              <div className="card horizontal">
              <div className="card-image">
-             <img src="./SS.png"></img>
+             <img src="./SS.png" alt="burger" ></img>
              </div>
              <div className="card-stacked">
              <div className="card-content">
