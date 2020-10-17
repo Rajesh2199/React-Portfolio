@@ -7,7 +7,7 @@ function Fitness() {
              <h2 className="header">The Fitness-Tracker Project</h2>
              <div className="card horizontal">
              <div className="card-image">
-             <img src="./fitness.png"></img>
+             <img src="./fitness.png" alt="fitness"></img>
              </div>
              <div className="card-stacked">
              <div className="card-content">
