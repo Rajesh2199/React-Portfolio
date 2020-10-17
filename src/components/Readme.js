@@ -7,7 +7,7 @@ function Readme() {
              <h2 className="header">Project Readme</h2>
              <div className="card horizontal">
              <div className="card-image">
-             <img src="./fitness.png"></img>
+             <img src="./fitness.png" alt="readme"></img>
              </div>
              <div className="card-stacked">
              <div className="card-content">

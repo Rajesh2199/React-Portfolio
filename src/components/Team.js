@@ -7,7 +7,7 @@ function Team() {
              <h2 className="header">Custom Team Generator</h2>
              <div className="card horizontal">
              <div className="card-image">
-             <img src="./Summary.png"></img>
+             <img src="./Summary.png" alt="team"></img>
              </div>
              <div className="card-stacked">
              <div className="card-content">
