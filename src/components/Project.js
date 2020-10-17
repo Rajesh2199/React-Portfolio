@@ -8,7 +8,7 @@ function Projects (){
     <h2 className="header">The Covid-19 Project</h2>
        <div className="card horizontal">
                <div className="card-image">
-                   <img src="/map.png"></img>
+                   <img src="/map.png" alt="covid"></img>
                </div>
                 <div className="card-stacked">
                        <div className="card-content">
