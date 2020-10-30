@@ -3,6 +3,7 @@ import React from 'react';
 
 function Burger() {
     return (
+        <div class="container" style= {{width: "100%"}}> 
         <div className = "col s12 m7 card-panel hoverable">
              <h2 className="header">Eat The Burger</h2>
              <div className="card horizontal">
@@ -25,6 +26,7 @@ function Burger() {
              </div>
 
         </div>
+    </div>
     )
 }
 
