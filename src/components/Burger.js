@@ -3,7 +3,7 @@ import React from 'react';
 
 function Burger() {
     return (
-        <div class="container" style= {{width: "100%"}}> 
+        <div className="container" style= {{width: "100%"}}> 
         <div className = "col s12 m7 card-panel hoverable">
              <h2 className="header">Eat The Burger</h2>
              <div className="card horizontal">
@@ -18,7 +18,7 @@ function Burger() {
             <p><b>Tech Stack:</b> Node.js, JavaScript, Express.js, Handlebars.js, Routes, ORMs, MySQL and MVC design pattern.</p>
              <br></br>
              </div>
-            <div class="card-action">
+            <div className="card-action">
           <a href="https://github.com/Rajesh2199/Nodejs-Handlebars-Project"target="_blank">Github</a>
           <a href="https://immense-shore-38573.herokuapp.com/" target="_blank">Deployed Version</a>
                  </div>

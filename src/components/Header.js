@@ -8,12 +8,12 @@ function Intro() {
 
     return (
 
-        <div class="container" style= {{width: "100%"}}> 
+        <div className="container" style= {{width: "100%"}}> 
             <div className="col s12 m8 offset-m2 l6 offset-l8">
                     <div className="card-panel grey lighten-5 z-depth-1">
                         <div className="row valign-wrapper">
                         <div className="col s2">
-                            <img src= "/image.jpg" style ={{width:'70%'}} alt="mypicture" className="circle responsive-img"></img>
+                            <img src= {"./image.jpg"} style ={{width:'70%'}} alt="BaduwalRajes" className="circle responsive-img"></img>
                         </div>
                         <div className="col s10">
                             <span className="black-text center-align">

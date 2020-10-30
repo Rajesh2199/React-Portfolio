@@ -3,7 +3,7 @@ import React from 'react';
 
 function Fitness() {
     return (
-        <div class="container" style= {{width: "100%"}}> 
+        <div className="container" style= {{width: "100%"}}> 
                 <div className = "col s12 m7 card-panel hoverable">
                     <h2 className="header">The Fitness-Tracker Project</h2>
                     <div className="card horizontal">
@@ -16,7 +16,7 @@ function Fitness() {
                     <br></br>
                     <p><b>Tech Stack:</b> JavaScript, Nodejs, MongoDB, Expressjs, HTML, Heroku and CSS. </p>
                     </div>
-                    <div class="card-action">
+                    <div className="card-action">
                 <a href="https://github.com/Rajesh2199/Workout-Tracker" target="_blank">Github</a>
                 <a href="https://fierce-badlands-34785.herokuapp.com/" target="_blank">Deployed Version</a>
                         </div>
