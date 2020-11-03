@@ -1,5 +1,6 @@
 import React from 'react';
-
+import "materialize-css/dist/css/materialize.min.css"
+import Image from "../images/Summary.png"
 
 function Team() {
     return (
@@ -8,7 +9,7 @@ function Team() {
                   <h2 className="header">Custom Team Generator</h2>
                   <div className="card horizontal">
                   <div className="card-image">
-                  <img src="./Summary.png" alt="team"></img>
+                  <img src={Image} alt="team"></img>
                   </div>
                   <div className="card-stacked">
                   <div className="card-content">

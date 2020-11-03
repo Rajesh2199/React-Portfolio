@@ -1,5 +1,6 @@
 import React from 'react';
-
+import "materialize-css/dist/css/materialize.min.css"
+import Image from "../images/fitness.png"
 
 function Fitness() {
     return (
@@ -8,7 +9,7 @@ function Fitness() {
                     <h2 className="header">The Fitness-Tracker Project</h2>
                     <div className="card horizontal">
                     <div className="card-image">
-                    <img src="./fitness.png" alt="fitness"></img>
+                    <img src={Image} alt="fitness"></img>
                     </div>
                     <div className="card-stacked">
                     <div className="card-content">
@@ -17,8 +18,8 @@ function Fitness() {
                     <p><b>Tech Stack:</b> JavaScript, Nodejs, MongoDB, Expressjs, HTML, Heroku and CSS. </p>
                     </div>
                     <div className="card-action">
-                <a href="https://github.com/Rajesh2199/Workout-Tracker" target="_blank">Github</a>
-                <a href="https://fierce-badlands-34785.herokuapp.com/" target="_blank">Deployed Version</a>
+                        <a href="https://github.com/Rajesh2199/Workout-Tracker" target="_blank">Github</a>
+                        <a href="https://fierce-badlands-34785.herokuapp.com/" target="_blank">Deployed Version</a>
                         </div>
                     </div>
                     </div>

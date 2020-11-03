@@ -1,7 +1,7 @@
 import React from 'react';
+import Image from "../images/image.jpg"
 import "./style.css";
-import "materialize-css/dist/css/materialize.min.css";
-
+import "materialize-css/dist/css/materialize.min.css"
 
 
 function Intro() {
@@ -13,7 +13,7 @@ function Intro() {
                     <div className="card-panel grey lighten-5 z-depth-1">
                         <div className="row valign-wrapper">
                         <div className="col s2">
-                            <img src= {"./image.jpg"} style ={{width:'70%'}} alt="BaduwalRajes" className="circle responsive-img"></img>
+                            <img src= {Image} style ={{width:'70%'}} alt="BaduwalRajes" className="circle responsive-img"></img>
                         </div>
                         <div className="col s10">
                             <span className="black-text center-align">

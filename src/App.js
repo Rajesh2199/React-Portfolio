@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import './index.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Project from './components/Project'
+import Fitness from './components/Fitness'
+import Readme from './components/Readme'
+import Team from './components/Team'
+import Burger from './components/Burger'
+import "materialize-css/dist/css/materialize.min.css"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Header/>
+    <Project />
+    <Fitness />
+    <Readme />
+    <Team />
+    <Burger />
+    <Footer />
     </div>
   );
 }

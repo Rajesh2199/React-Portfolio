@@ -1,11 +1,11 @@
 import React from 'react';
-
+import "materialize-css/dist/css/materialize.min.css"
 
 function Footer (){
 
 
     return (
-    <footer className = "page-footer yellow lighten-5">
+    <footer className = "page-footer yellow lighten-5" >
         <div className = "container">
             <div className ="row">
                 <div className ="col l6 s12">
@@ -20,7 +20,7 @@ function Footer (){
                      <a  href= "Rajesh-Baduwal Resume.pdf" target="_blank">Resume</a>
                     </ul>
                 </div>
-                <div className="col l6h5 offset-l2 s12">
+                <div className="col l6h5 offset-l2 s12" style= {{margin:"auto", width:"50%"}}>
                     <h5 className="black-text">Contact</h5>
                     <h5 className="black-text">Phone: 208-226-4906</h5>
                     <h5 className="black-text ">Email:baduraje@isu.edu</h5>

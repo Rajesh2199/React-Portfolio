@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Image from "../images/SS.png"
+import "materialize-css/dist/css/materialize.min.css"
 
 function Burger() {
     return (
@@ -8,7 +9,7 @@ function Burger() {
              <h2 className="header">Eat The Burger</h2>
              <div className="card horizontal">
              <div className="card-image">
-             <img src="./SS.png" alt="burger" ></img>
+             <img src= {Image} alt="burger" ></img>
              </div>
              <div className="card-stacked">
              <div className="card-content">

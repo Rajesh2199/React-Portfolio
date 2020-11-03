@@ -1,4 +1,6 @@
 import React from 'react';
+import "materialize-css/dist/css/materialize.min.css"
+import Image from "../images/Readme.png"
 
 
 function Readme() {
@@ -9,7 +11,7 @@ function Readme() {
                         <h2 className="header">Project Readme</h2>
                         <div className="card horizontal">
                         <div className="card-image">
-                        <img src="./Readme.png" alt="readme"></img>
+                        <img src={Image} alt="readme"></img>
                         </div>
                         <div className="card-stacked">
                         <div className="card-content">

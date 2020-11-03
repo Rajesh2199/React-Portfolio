@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "../images/map.png"
+import "materialize-css/dist/css/materialize.min.css"
 
 function Projects (){
   return (
@@ -8,7 +9,7 @@ function Projects (){
             <h2 className="header">The Covid-19 Project</h2>
               <div className="card horizontal">
                       <div className="card-image">
-                          <img src="/map.png" alt="covid"></img>
+                          <img src={Image} alt="covid"></img>
                       </div>
                         <div className="card-stacked">
                               <div className="card-content">
