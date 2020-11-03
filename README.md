@@ -10,5 +10,5 @@ I have built this porfolio using a component for each of the following items: He
 https://rajesh2199.github.io/React-Portfolio/
 
 ### Portfolio at a glance
-![Screenshot](portfolio.png)
+![Screenshot](./src/images/portfolio.png)
 
